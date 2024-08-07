@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphQLExample", "GraphQLExample\GraphQLExample.csproj", "{7EF10367-F1C4-41F3-B04F-AB04E51E48E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendgridEmail", "SendgridEmail\SendgridEmail.csproj", "{DDE1CD5F-F9C9-4F50-B61C-6B7F391324A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EF10367-F1C4-41F3-B04F-AB04E51E48E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF10367-F1C4-41F3-B04F-AB04E51E48E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF10367-F1C4-41F3-B04F-AB04E51E48E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF10367-F1C4-41F3-B04F-AB04E51E48E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE1CD5F-F9C9-4F50-B61C-6B7F391324A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE1CD5F-F9C9-4F50-B61C-6B7F391324A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE1CD5F-F9C9-4F50-B61C-6B7F391324A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE1CD5F-F9C9-4F50-B61C-6B7F391324A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {419DC03D-76DD-4671-B53A-9B2B246CE1F4}
+	EndGlobalSection
+EndGlobal

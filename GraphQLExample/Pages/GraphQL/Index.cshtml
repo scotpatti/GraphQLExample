@@ -1,0 +1,34 @@
+﻿@page
+@model GraphQLExample.Pages.Protected.IndexModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">GraphQL Example</h1>
+    <p>Login required.</p>
+</div>
+<div class="text-center">
+    @if (Model.Films != null && Model.Films.AllFilms != null && Model.Films.AllFilms.Films != null)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Episode ID</th>
+                    <th>Director</th>
+                    <th>Release Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var film in Model.Films.AllFilms.Films)
+                {
+                    <tr>
+                        <td>@film.Title</td>
+                        <td>@film.EpisodeID</td>
+                        <td>@film.Director</td>
+                        <td>@film.ReleaseDate</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
